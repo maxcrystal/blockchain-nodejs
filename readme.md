@@ -1,6 +1,6 @@
 # Learn Blockchains by Building One with Pure NodeJS
 
-This is the port to the NodeJS of the python source code for the post on [Building a Blockchain](https://medium.com/p/117428612f46) by Daniel van Flymen. I did it in order to learn Node and Blockchain, so it may not be ideal.
+This is a port to NodeJS of the python source code for the post on [Building a Blockchain](https://medium.com/p/117428612f46) by Daniel van Flymen. I did it in order to learn Node and Blockchain, so it may not be ideal.
 
 ## Installation
 
