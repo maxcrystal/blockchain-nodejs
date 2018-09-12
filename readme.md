@@ -22,6 +22,9 @@ $ npm install
 5. Run the server (default port 3000):
     * `$ node run.js` 
     * `$ node run.js 3001`
+    
+6. Run tests
+    * `$ node test/run.js`
 
 ## Contributing
 
