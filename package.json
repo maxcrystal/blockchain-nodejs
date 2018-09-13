@@ -1,14 +1,18 @@
 {
   "name": "blockchain",
   "version": "1.0.0",
-  "description": "Simple Blockchain based on 'Learn Blockchains by Building One' article (https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)",
-  "repository": "https://github.com/maxcrystal/blockchain-nodejs.git",
+  "description": "Simple Blockchain based on 'Learn Blockchains by Building One' article.",
+  "homepage": "https://hackernoon.com/learn-blockchains-by-building-one-117428612f46",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxcrystal/blockchain-nodejs.git"
+  },
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "run": "node run.js",
+    "start": "node run.js",
     "test": "node test/run.js"
   },
   "keywords": [
