@@ -12,20 +12,20 @@ This is a port to NodeJS of the python source code for the post on [Building a B
 $ git clone https://github.com/maxcrystal/blockchain-nodejs.git
 ```
 
-4. Install development requirements to support ES6 syntax, no other dependencies - pure NodeJS.
+3. Install development requirements to support ES6 syntax, no other dependencies - pure NodeJS.
 
 ```
 $ cd blockchain-nodejs
 $ npm install 
 ``` 
 
-5. Run the server (default port 3000):
+4. Run the server (default port 3000):
     * `$ npm start`
     * `$ npm start 3001` <small>(start the server on port 3001)</small>
     * `$ node run.js` 
     * `$ node run.js 3001`  <small>(start the server on port 3001)</small>
     
-6. Run tests
+5. Run tests
     * `$ npm test`
     * `$ node test/run.js`
 
