@@ -71,8 +71,8 @@ unit[`Block should be created and added to the chain`] = done =>  {
   assert.ok([...blockchain.chain].length === 2);
   assert.ok(latestBlock.index === 2);
   assert.ok(latestBlock.timestamp);
-  assert.ok(latestBlock.proof === 123);
-  assert.ok(latestBlock.previousHash = 'abc');
+  assert.ok(latestBlock.proof === block.proof);
+  assert.ok(latestBlock.previousHash === block.previousHash);
   done();
 };
 
